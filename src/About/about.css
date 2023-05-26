@@ -1,0 +1,102 @@
+.about{
+    background-color: rgb(26,188, 158);
+    height: 80vh !important;
+    position: relative !important;
+}
+
+.btn{
+    margin-left: 43% !important;
+    border: 2px solid white !important;
+}
+.icon{
+    
+    margin-left: 49%;
+}
+.icon::after{
+    position: absolute;
+    content: '';
+background-color: aliceblue;
+width: 18% !important;
+height: 3px !important;
+left: 5% !important;
+top:4 !important;
+
+}
+.icon::before{
+    position: absolute;
+    content: '';
+background-color: aliceblue;
+width: 18% !important;
+height: 3px !important;
+left: 29%;
+top: 78% !important;
+
+}
+
+@media (max-width:800px) {
+    .btn{
+        margin-left: 32% !important;
+        margin-top: 1% !important;
+    }    
+}
+
+@media (max-width:915px) {
+    .about{
+        height: 60vh !important;
+
+    }
+    .btn{
+        margin-left: 32% !important;
+        margin-top: 10%;
+    }
+   .p p{
+    
+    font-size:13px !important;
+    margin-top: -3px !important;
+    
+    
+   }
+}
+
+@media (max-width:1104px) {
+.about{
+    height: 45vh !important;
+}
+
+
+}
+
+
+@media (max-width:851px) {
+    .about{
+        height: 50vh !important;
+    }
+    
+    
+    }
+    @media (max-width:780px) {
+        .about{
+            height: 60vh !important;
+        }
+        
+        
+        }
+
+        @media (max-width:1140px) {
+            .about{
+                height: 40vh !important;
+        
+            }
+            .btn{
+                margin-left: 39% !important;
+                margin-top: 4%;
+            }
+           .p p{
+            
+            font-size:18px !important;
+            margin-top: -3px !important;
+            
+            
+           }
+            
+            }

@@ -1,0 +1,144 @@
+.r{
+    width: 33.33% !important;
+position: relative;
+
+}
+
+.r img{
+    border-radius: 4% !important;
+    height: 100%; 
+   
+}
+
+
+.r{
+  
+    transition: width 2s;
+}
+.r:hover::before{
+    content: '';
+    height: 90% !important;
+    width: 95%!important;
+    background-color:rgba(2, 138, 2, 0.315) !important;
+    position: absolute;
+    left: 2.5% !important;
+    top: 4.6% !important;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+.container{
+    position: relative;
+}
+
+.stars .ic{
+
+margin-left: 48%;
+}
+.stars::after{
+content: '';
+background-color: black;
+position: absolute;
+height: 4px;
+width: 25%;
+top: 11%;
+left: 53%;
+
+}
+.stars::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    height: 4px;
+    width: 25%;
+    top: 11%;
+    left: 21%;
+    
+    }
+
+
+@media (max-width:915px) {
+  
+    .stars .ic{
+
+        margin-left: 47%;
+        font-size: 29px !important;
+        }
+        .stars::after{
+        content: '';
+        background-color: black;
+        position: absolute;
+        height: 4px;
+        width: 25%;
+        top: 2.7% !important;
+        left: 55% !important;
+        
+        }
+        .stars::before{
+            content: '';
+            background-color: black;
+            position: absolute;
+            height: 4px;
+            width: 25%;
+            top: 2.7% !important;
+            left: 21% !important;
+            
+            }
+
+
+            
+           
+        }
+
+  @media (max-width:1104px) {
+   .stars{
+    font-size: 2rem !important;
+   }        
+.stars::after{
+    content: '';
+    background-color: black;
+    position: absolute;
+    height: 4px;
+    width: 25%;
+    top: 2.3% !important;
+    left: 52% !important;
+    
+    }
+    .stars::before{
+        content: '';
+        background-color: black;
+        position: absolute;
+        height: 4px;
+        width: 25%;
+        top: 2.3% !important;
+        left: 52%;
+        
+        }
+            
+           
+        }
+
+        
+
+        @media screen and (max-width:915px) {
+           .col-md-4{
+            width: 100% !important;
+           }
+        }
+        @media screen and (max-width:1104px) {
+           
+            .r:hover::before{
+                content: '';
+                height: 92% !important;
+                width: 96%!important;
+                background-color:rgba(2, 138, 2, 0.315) !important;
+                position: absolute;
+                left: 2% !important;
+                top: 4% !important;
+                border: 2px solid black;
+                border-radius: 3%;
+            }
+            .r img{
+                border-radius: 6% !important;
+
+            }
+         }

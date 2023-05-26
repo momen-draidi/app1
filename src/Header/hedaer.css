@@ -1,0 +1,160 @@
+.header{
+    background-color: rgb(25, 188, 126);
+    height: 85vh;
+    text-align: center;
+    margin-top: 60px !important;
+    font-style: italic;
+    position: relative;
+}
+
+.header img{
+    width: 20% !important;
+    margin-top: 30px;
+
+}
+.star::after{
+    position: absolute;
+    content: '';
+background-color: aliceblue;
+width: 18% !important;
+height: 3px !important;
+left: 29%;
+top: 78% !important;
+
+}
+.star::before{
+    position: absolute;
+    content: '';
+background-color: aliceblue;
+width: 18% !important;
+height: 3px !important;
+left: 53%;
+top: 78% !important;
+
+
+}
+
+@media (max-width:915px) {
+    .header img{
+        width: 50% !important;
+        margin-top: 30px;
+    
+    }
+    .star{
+        font-size: 32px !important;
+    }
+
+    .star::after{
+    position: absolute;
+    content: '';
+background-color: aliceblue;
+width: 25% !important;
+height: 3px !important;
+left: 20%;
+top: 49% !important;
+
+}
+.star::before{
+    position: fixed;
+    position: absolute;
+    content: '';
+background-color: none;
+width:25%  !important;
+height: 3px !important;
+left: 54%;
+top: 49% !important;
+
+
+
+}
+
+}
+@media (max-width:1104px) {
+
+
+    .header img{
+        width: 40% !important;
+        margin-top: 15% !important;
+    }
+    .star::after{
+        position: absolute;
+        content: '';
+    background-color: aliceblue;
+    width: 25% !important;
+    height: 3px !important;
+    left: 20%;
+    top: 72% !important;
+    
+    }
+    .star::before{
+        position: fixed;
+        position: absolute;
+        content: '';
+    background-color: none;
+    width:25%  !important;
+    height: 3px !important;
+    left: 54%;
+    top: 72% !important;
+    
+    
+    
+    }
+}
+
+
+@media (max-width:780px) {
+
+    .star::after{
+        position: absolute;
+        content: '';
+    background-color: aliceblue;
+    width: 25% !important;
+    height: 3px !important;
+    left: 20%;
+    top: 50% !important;
+    
+    }
+    .star::before{
+        position: fixed;
+        position: absolute;
+        content: '';
+    background-color: none;
+    width:25%  !important;
+    height: 3px !important;
+    left: 54%;
+    top: 51% !important;
+    
+    
+    
+    }
+    
+}
+
+@media (max-width:851px) {
+
+    .star::after{
+        position: absolute;
+        content: '';
+    background-color: aliceblue;
+    width: 25% !important;
+    height: 3px !important;
+    left: 20%;
+    top: 52% !important;
+    
+    }
+    .star::before{
+        position: fixed;
+        position: absolute;
+        content: '';
+    background-color: none;
+    width:25%  !important;
+    height: 3px !important;
+    left: 54%;
+    top: 52% !important;
+    
+    
+    
+    }
+    
+}
+

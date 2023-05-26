@@ -1,0 +1,43 @@
+.cont{
+    height: 100% !important;
+}
+.form input{
+   padding-right: 50%;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   margin-left: 15% !important;
+
+}
+h1{
+    font-style: italic;
+}
+@media (max-width:951px) {
+    .form input{
+        padding-right: 40%;
+        margin-left: 5% !important;
+    }
+}
+@media (max-width:1104px) {
+   
+    .form input{
+        padding-right: 60%;
+        margin-left: 5% !important;
+    }
+}
+
+@media (max-width:851px) {
+   
+    .form input{
+        padding-right: 40%;
+        margin-left: 5% !important;
+    }
+}
+@media (max-width:780px) {
+   
+    .form input{
+        padding-right: 35%;
+        margin-left: 5% !important;
+    }
+}
+
